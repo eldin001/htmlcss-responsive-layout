@@ -121,6 +121,8 @@ footer {
     padding: 40px;
 }
 
+
+
 .text-white {
     color: white;
 }
@@ -138,6 +140,7 @@ footer {
 }
 
 .rounded-card {
+    margin: 30px 0;
     padding: 40px;
     background-color: rgb(255, 255, 255);
     border-radius: 40px;
@@ -147,10 +150,29 @@ footer {
     background-color: var(--violet-section-color);
 }
 
+.margin-brw-card {
+    margin: 20px 0;
+}
+
+.color-text-white {
+    color: white;
+}
+
+.color-text-violet {
+    color: var(--violet-section-color);
+}
+
+.color-white {
+    background-color: white;
+}
+
+.font-size-number {
+    font-size: 3rem;
+}
 
 
 .photo {
-    width: 30%;
+    width: 60%;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
     overflow: hidden;
