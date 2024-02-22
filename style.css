@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+:root {
+    --header-color: #3C81F4;
+    --violet-section-color: #9591DD;
+    --white-section-color:#FFFFFF;
+    --footer-color: #363636;
+    --azure-container: #BBDBFC;
+    --it-s-free: #EBBE76;
+
+}
+
+nav {
+    background-color: var(--header-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.d-bug {
+    border: 1px solid red;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.container {
+    width: 100%;
+    padding: 40px;
+    margin: auto;
+}
+
+.white-section {
+    background-color: var(--white-section-color);
+
+}
+
+.violet-section {
+    background-color: var(--violet-section-color);
+
+}
+
+footer {
+    background-color: var(--footer-color);
+}
+
+/* specific rules 1st card */
+
+#hero .card {
+    background-color: var(--azure-container);
+    margin-top: 70px;
+}
+
+#first-card {
+    padding: 40px 40px 0 40px;
+}
+
+.padding-img-first {
+    padding-top: 20px;
+}
+
+#hero .card h2 {
+    color: var(--header-color);
+}
+
+
+/* utilities */
+
+#hero .card i.fa-2xl {
+    padding: 40px;
+    font-size: 90px;
+    color: var(--header-color);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.padding-tw {
+    padding: 20px;
+}
+
+.card {
+    border-radius: 20px;
+    padding: 40px;
+}
+
+.text-white {
+    color: white;
+}
+
+.card-heading-padding {
+    padding: 30px 0;
+}
+
+.paragraph-line-height {
+    line-height: 25px;
+}
+
+.padding-incon {
+    padding: 10px;
+}
+
+.rounded-card {
+    padding: 40px;
+    background-color: white;
+    border-radius: 40px;
+}
+
+
+
+
+/* btn section */
+
+.btn {
+    padding: 10px 30px;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.blue-btn {
+    background-color: var(--header-color);
+    color: white;
+}
+
+
+
+
+
+
